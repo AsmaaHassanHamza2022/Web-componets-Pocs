@@ -1,0 +1,29 @@
+.layout-wrapper{
+    background-color: bisque;
+    header{
+        border:1px solid brown;
+        padding: 10px;
+        text-align: center;
+    }
+    nav{
+        background-color: antiquewhite;
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+    main{
+        margin-block: 30px;
+        border:1px solid brown;
+    }
+
+    footer{
+        background-color: lightsalmon;
+        p{
+            text-align: center;
+            padding:10px;
+            
+        }
+    }
+}
